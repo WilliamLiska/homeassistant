@@ -77,6 +77,11 @@ script: !include scripts.yaml
 
 ios:
 
+#weather
+weather:
+  - platform: darksky
+    api_key: !secret darksky_secret_key
+
 ############################################
 # Includes
 ############################################
