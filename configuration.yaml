@@ -14,7 +14,7 @@ homeassistant:
   customize: !include customize.yaml
 
 # Show links to resources in log and frontend
-introduction:
+# introduction:
 
 # Enables the frontend
 frontend:
@@ -69,8 +69,11 @@ zwave:
 media_player:
   - platform: spotify
     client_id: fff419d73989408ea64fc1139338d782
-    client_secret:
+    client_secret: !secret casey_spotify_secret
+  - platform: roku
 
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+
+ios:
