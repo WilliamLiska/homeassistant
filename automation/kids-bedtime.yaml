@@ -1,0 +1,11 @@
+- action:
+  - alias: Kid's Room Lights Out
+    data:
+      entity_id: light.ge_14294_inwall_smart_dimmer_level
+    service: light.turn_off
+  alias: Kid's Room Lights Out
+  condition: []
+  id: '1510584359005'
+  trigger:
+  - at: '20:00:00'
+    platform: time

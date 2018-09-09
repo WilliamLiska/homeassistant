@@ -1,0 +1,21 @@
+- action:
+  - alias: Advanced Set Brightness
+    service: light.turn_on
+    data_template:
+      entity_id: light.masterbathlight_level
+      brightness: >
+        {%- if now().strftime('%H')| int >= 23 %}
+          65
+        {%- elif now().strftime('%H')| int >= 22 %}
+          137
+        {%- elif now().strftime('%H')| int < 7 %}
+          45
+        {%- endif %}
+  alias: Master Bathroom Nightlight
+  condition: []
+  id: '1512265968551'
+  trigger:
+  - entity_id: light.masterbathlight_level
+    from: 'off'
+    platform: state
+    to: 'on'
