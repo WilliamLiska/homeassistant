@@ -55,9 +55,6 @@ map:
 # Track the sun
 sun:
 
-# Weather prediction
-sensor:
-
 # Text to speech
 tts:
   - platform: google
@@ -82,7 +79,9 @@ weather:
   - platform: darksky
     api_key: !secret darksky_secret_key
 
+
 ############################################
 # Includes
 ############################################
 automation: !include_dir_merge_list automation
+sensor: !include_dir_merge_list sensor

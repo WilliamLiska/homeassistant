@@ -1,0 +1,4 @@
+#crime
+- platform: crimereports
+  radius: 8000
+  name: crimereports 

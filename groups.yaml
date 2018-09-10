@@ -1,0 +1,14 @@
+#default_view:
+my_home:
+  name: My Home
+  icon: mdi:home-variant
+  view: yes
+  entities:
+    - group.upstairs
+upstairs:
+  name: Upstairs
+  icon: mdi:sofa
+  #view: yes
+  entities:
+    - light.eastonroomlight_level
+    - light.masterbathlight_level
