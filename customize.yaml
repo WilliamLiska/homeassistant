@@ -1,0 +1,5 @@
+media_player.master_bathroom: {}
+zwave.ge_14292_inwall_smart_toggle_switch:
+  friendly_name: MasterClosetLightSwitch
+switch.masterbedroomcloset:
+  friendly_name: MasterClosetLightSwitch
