@@ -55,6 +55,12 @@ map:
 # Track the sun
 sun:
 
+# Enable home assistant cloud
+cloud:
+
+# Enable IOS integration
+ios:
+
 # Text to speech
 tts:
   - platform: google
