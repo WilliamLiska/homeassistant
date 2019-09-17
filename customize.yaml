@@ -3,3 +3,5 @@ zwave.ge_14292_inwall_smart_toggle_switch:
   friendly_name: MasterClosetLightSwitch
 switch.masterbedroomcloset:
   friendly_name: MasterClosetLightSwitch
+sensor.ge_zw6302_portable_smart_motion_sensor_burglar:
+  friendly_name: MotionSensor
