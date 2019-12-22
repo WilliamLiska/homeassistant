@@ -13,3 +13,4 @@ upstairs:
     - light.eastonroomlight_level
     - light.masterbathlight_level
     - switch.masterbedroomcloset
+    - light.office_overhead_led

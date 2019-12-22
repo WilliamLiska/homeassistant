@@ -5,3 +5,5 @@ switch.masterbedroomcloset:
   friendly_name: MasterClosetLightSwitch
 sensor.ge_zw6302_portable_smart_motion_sensor_burglar:
   friendly_name: MotionSensor
+light.jasco_products_zw7101_smart_led_light_bulb_ze26i_level:
+  friendly_name: OfficeOverheadLight

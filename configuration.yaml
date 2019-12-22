@@ -65,6 +65,9 @@ ios:
 tts:
   - platform: google
 
+#Enable mobile app
+mobile_app:
+
 # Z-wave
 zwave:
   usb_path: /dev/ttyACM0
